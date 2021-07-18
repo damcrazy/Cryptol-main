@@ -1,0 +1,38 @@
+.BackVid{
+    display:flex;
+    max-width: 100vw;
+    max-height: 100vh;
+    height:100%;
+    background-attachment: fixed;
+}
+
+video{
+    position: absolute;
+    background-size:contain;
+    min-width: 100%;
+    width: auto;
+    filter: brightness(50%);
+}
+
+.MainText{
+    text-align: center;
+    font-size: 95px;
+    display: block;
+    position: relative;
+    margin-top: 20%;
+    color:white;
+}
+
+.SubText
+{
+    color:rgb(165, 171, 177);
+    font-size: 40px;
+}
+
+.nextCont{
+    height:30em;
+    background-color:pink;
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+}
