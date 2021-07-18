@@ -83,7 +83,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/btc/84.png" alt="bt" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Bitcoin (BTC)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['BTC']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['BTC']; ?></td>
                 <td>0.00</td>
@@ -94,7 +94,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/xrp/84.png" alt="xrp" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Ripple (XRP)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['XRP']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['XRP']; ?></td>
                 <td>0.00</td>
@@ -105,7 +105,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/ltc/84.png" alt="ltc" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Litecoin (LTC)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['LTC']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['LTC']; ?></td>
                 <td>0.00</td>
@@ -116,7 +116,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/dash/84.png" alt="dash" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Dash (DASH)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['DASH']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['DASH']; ?></td>
                 <td>0.00</td>
@@ -127,7 +127,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/eth/84.png" alt="eth" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Ethereum (ETH)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ETH']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ETH']; ?></td>
                 <td>0.00</td>
@@ -160,7 +160,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/zil/84.png" alt="zil" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Zilliqa (ZIL)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ZIL']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ZIL']; ?></td>
                 <td>0.00</td>
@@ -226,7 +226,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/storm/84.png" alt="storm" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Storm (STORM)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['STORM']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['STORM']; ?></td>
                 <td>0.00</td>
@@ -259,7 +259,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/nuls/84.png" alt="nuls" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Nuls (NULS)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['NULS']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['NULS']; ?></td>
                 <td>0.00</td>
@@ -270,7 +270,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/icx/84.png" alt="icx" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Icon (ICX)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ICX']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ICX']; ?></td>
                 <td>0.00</td>
@@ -468,7 +468,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/usdt/84.png" alt="usdt" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Tether USD (USDT)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['BTCT']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['BTCT']; ?></td>
                 <td>0.00</td>
@@ -490,7 +490,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/bch/84.png" alt="bch" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Bitcoin Cash (BCH)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['BCH']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['BCH']; ?></td>
                 <td>0.00</td>
@@ -633,7 +633,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/matic/84.png" alt="matic" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Matic Network (MATIC)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['MATIC']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['MATIC']; ?></td>
                 <td>0.00</td>
@@ -644,7 +644,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/ada/84.png" alt="ada" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Cardano (ADA)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ADA']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ADA']; ?></td>
                 <td>0.00</td>
@@ -655,7 +655,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/rvn/84.png" alt="rvn" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Ravencoin (RVN)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['RVN']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['RVN']; ?></td>
                 <td>0.00</td>
@@ -666,7 +666,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/xmr/84.png" alt="xmr" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Monero (XMR)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['XMR']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['XMR']; ?></td>
                 <td>0.00</td>
@@ -677,7 +677,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/atom/84.png" alt="atom" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Cosmos (ATOM)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ATOM']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ATOM']; ?></td>
                 <td>0.00</td>
@@ -721,7 +721,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/etc/84.png" alt="etc" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Ethereum Classic (ETC)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['ETC']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['ETC']; ?></td>
                 <td>0.00</td>
@@ -1029,7 +1029,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/bnb/84.png" alt="bnb" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Binance Coin (BNB)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['BNB']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['BNB']; ?></td>
                 <td>0.00</td>
@@ -1216,7 +1216,7 @@ $_SESSION = $row;
             <tr class="record even">
                 <td><img src="https://media.wazirx.com/media/doge/84.png" alt="doge" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">Dogecoin (DOGE)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['DOGE']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['DOGE']; ?></td>
                 <td>0.00</td>
@@ -1964,7 +1964,7 @@ $_SESSION = $row;
             <tr class="record odd">
                 <td><img src="https://media.wazirx.com/media/cake/84.png" alt="cake" class="sc-fjdhpX gcvOpy"></td>
                 <td class="text-bold">PancakeSwap (CAKE)</td>
-                <td>0</td>
+                <td><?php echo $_SESSION['CAKE']; ?></td>
                 <td>0</td>
                 <td class="text-bold text-large"><?php echo $_SESSION['CAKE']; ?></td>
                 <td>0.00</td>

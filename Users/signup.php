@@ -8,7 +8,7 @@
 <div id="main-wrapper">
             <div class="login-box">
      <form action="signup-check.php" method="post">
-     <h2>Register</h2>
+     <h2>REGISTER</h2>
           <div class="error">
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
