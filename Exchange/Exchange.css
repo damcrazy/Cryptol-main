@@ -1,29 +1,66 @@
 /*Chart and listing*/
+
+:root {
+    --bgcol: rgb(0, 0, 39);
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.a.item,
+.span.market-name-text {
+    padding: 0px;
+    /* border: 0px !important; */
+}
+
+input.sc-cMhqgX {
+    width: 100%;
+    border: 2px !important;
+}
+
+div.buy,
+div.sell,
+input.sc-cMhqgX,
+div.sc-bdVaJa,
+div.c-eLExRp,
+div.sc-eLExRp,
+span.market-name-text,
+a.item,
+div.cont,
+body {
+    background-color: var(--bgcol);
+    color: white;
+}
+
 .tradingview-widget-container {
     position: relative;
-  }
-  .chart {
+}
+
+.chart {
     margin-right: 200px;
-  }
-  
-  .row {
+}
+
+.row {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     justify-content: flex-end;
     margin-right: 0 !important;
-  }
-  .heading {
+}
+
+.heading {
     text-align: center;
     font-size: large;
     background-color: rgb(40, 123, 255);
     color: white;
-  }
-  
-  .container-1{
+}
+
+.container-1 {
     display: relative;
     position: relative;
-  }
-  .cont {
+}
+
+.cont {
     border-left: 5px solid rgb(40, 123, 255);
     border-right: 5px solid rgb(40, 123, 255);
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 2px 0px;
@@ -38,9 +75,9 @@
     flex-direction: column;
     align-items: center;
     font-size: medium !important;
-  }
-  
-  .item {
+}
+
+.item {
     display: flex;
     cursor: pointer;
     user-select: none;
@@ -48,57 +85,60 @@
     padding: 4px 12px;
     flex-grow: 0;
     background-color: #fff;
-  }
-  
-  .ticker-item {
+}
+
+.ticker-item {
     border-bottom-color: rgba(77, 84, 87, 0.2);
     background-color: rgb(24, 26, 27);
-  }
-  
-  .currency-logo {
+}
+
+.currency-logo {
     margin-right: 8px;
-  }
-  
-  .gcvOpy {
+}
+
+.gcvOpy {
     height: 14px;
     width: 14px;
-  }
-  
-  .market-name {
+}
+
+.market-name {
     display: flex;
     flex-direction: column;
     color: #1c1b21;
     font-weight: 700;
-  }
-  
-  .market-name-text {
+}
+
+.market-name-text {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
     line-height: 1.67;
     letter-spacing: 0.4px;
     color: #1c1b21;
-  }
-  .subtext {
+}
+
+.subtext {
     color: #92989b;
     font-size: 10px;
     line-height: 1.2;
     text-align: right;
     font-weight: 700;
-  }
-  
-  .market-change {
+}
+
+.market-change {
     display: flex;
-  }
-  .cFmqCk {
+}
+
+.cFmqCk {
     display: block;
     color: rgb(0, 200, 83);
     font-size: 10px;
     line-height: 1.2;
     text-align: right;
     font-weight: bold;
-  }
-  .price {
+}
+
+.price {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -107,51 +147,57 @@
     color: #485156;
     z-index: 1;
     margin-left: 12em;
-  }
-  
-  .price-box {
+}
+
+.price-box {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  }
-  
-  .price-text {
+}
+
+.price-text {
     font-weight: 700;
     color: #222326;
     text-align: right;
     font-size: 12px;
     line-height: 1.67;
     letter-spacing: 0.4px;
-  }
-  .okboss {
+}
+
+.okboss {
     border-bottom: 5px solid rgb(40, 123, 255);
-  }
-  
-  /*Buy and sell*/
-  
-  .eqmIRJ {
+}
+
+
+/*Buy and sell*/
+
+.eqmIRJ {
     display: flex;
     position: relative;
     flex-shrink: 0;
-  }
-  .cLPynA {
+}
+
+.cLPynA {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     margin-bottom: 12px;
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 0px 0px;
     position: relative;
-  }
-  .gUKorA {
+}
+
+.gUKorA {
     display: flex;
     flex-direction: column;
     width: 100%;
     flex-shrink: 0;
-  }
-  .eNLTVl {
+}
+
+.eNLTVl {
     display: flex;
-  }
-  .actGreen {  
+}
+
+.actGreen {
     transition: 0.5s;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(85 189 108) 0px 4px 0px 0px inset;
@@ -159,9 +205,9 @@
     -webkit-box-flex: 1;
     flex-grow: 1;
     cursor: pointer;
-  }
-  
-  .actRed {
+}
+
+.actRed {
     transition: 0.5s;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(239, 83, 80) 0px 4px 0px 0px inset;
@@ -169,22 +215,26 @@
     -webkit-box-flex: 1;
     flex-grow: 1;
     cursor: pointer;
-  }
-  .sc-bwzfXH {
+}
+
+.sc-bwzfXH {
     color: rgb(34, 35, 38);
-  }
-  .grayed:last-child {
+}
+
+.grayed:last-child {
     border-left: 1px solid rgba(0, 0, 0, 0.12);
-  }
-  .grayed {
+}
+
+.grayed {
     background-color: rgb(247, 250, 252);
     box-shadow: rgb(0 0 0 / 12%) 0px -1px 0px 0px inset;
     padding: 10px 12px;
     -webkit-box-flex: 1;
     flex-grow: 1;
     cursor: pointer;
-  }
-  .hlhjes {
+}
+
+.hlhjes {
     display: block;
     color: rgb(180, 184, 186);
     font-size: 12px;
@@ -193,32 +243,37 @@
     text-align: center;
     font-weight: bold;
     line-height: 1.33;
-  }
-  .guxsHv {
+}
+
+.guxsHv {
     margin: 16px;
-  }
-  .grRINs {
+}
+
+.grRINs {
     display: flex;
     margin: 25px 0px 0px;
     flex-shrink: 0;
     flex-direction: column;
     width: 100%;
     position: relative;
-  }
-  .bYnCFU {
+}
+
+.bYnCFU {
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
     border: 1px solid rgba(34, 35, 38, 0.12);
     border-radius: 4px;
     overflow: hidden;
-  }
-  .jXyWCZ {
+}
+
+.jXyWCZ {
     display: flex;
     flex-shrink: 0;
     position: relative;
-  }
-  .gwpLlM {
+}
+
+.gwpLlM {
     display: flex;
     flex-shrink: 0;
     padding: 0px 5px;
@@ -229,8 +284,9 @@
     border-right: 1px solid rgba(34, 35, 38, 0.12);
     z-index: 1;
     width: 65px;
-  }
-  .hjQJfp {
+}
+
+.hjQJfp {
     display: block;
     color: rgb(180, 184, 186);
     font-size: 10px;
@@ -238,8 +294,9 @@
     text-transform: uppercase;
     text-align: right;
     font-weight: 400;
-  }
-  .hSygGi {
+}
+
+.hSygGi {
     display: block;
     color: rgb(180, 184, 186);
     font-size: 10px;
@@ -247,71 +304,88 @@
     text-transform: uppercase;
     text-align: right;
     font-weight: bold;
-  }
-  
-  /*button*/
-  button {
+}
+
+
+/*button*/
+
+button {
     color: inherit;
     font: inherit;
     margin: 0;
-  }
-  button {
+}
+
+button {
     overflow: visible;
-  }
-  button {
+}
+
+button {
     text-transform: none;
-  }
-  button {
+}
+
+button {
     -webkit-appearance: button;
     cursor: pointer;
-  }
-  button::-moz-focus-inner {
+}
+
+button::-moz-focus-inner {
     border: 0;
     padding: 0;
-  }
-  @media print {
+}
+
+@media print {
     *,
-    :after,
-    :before {
-      color: #000 !important;
-      text-shadow: none !important;
-      background: transparent !important;
-      box-shadow: none !important;
+     :after,
+     :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
     }
-  }
-  *,
-  :after,
-  :before {
+}
+
+*,
+ :after,
+ :before {
     box-sizing: border-box;
-  }
-  button {
+}
+
+button {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-  }
-  ::placeholder {
+}
+
+ ::placeholder {
     color: #d3d3d3;
     opacity: 1;
-  }
-  :-ms-input-placeholder {
+}
+
+ :-ms-input-placeholder {
     color: #d3d3d3;
-  }
-  ::-ms-input-placeholder {
+}
+
+ ::-ms-input-placeholder {
     color: #d3d3d3;
-  }
-  /*! CSS Used from: Embedded */
-  *,
-  ::before,
-  ::after {
+}
+
+
+/*! CSS Used from: Embedded */
+
+*,
+ ::before,
+ ::after {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     margin: 0px;
     padding: 0px;
-  }
-  :focus {
+}
+
+ :focus {
     outline: none;
-  }
-  .TransactCryptoText {
+}
+
+.TransactCryptoText {
     display: block;
     color: rgb(255, 255, 255);
     font-size: 12px;
@@ -321,9 +395,9 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-  }
-  .TransactCrypto {
-    
+}
+
+.TransactCrypto {
     transition: 0.5s;
     border-radius: 4px;
     position: relative;
@@ -342,7 +416,7 @@
     align-items: center;
     border: 0px;
     text-align: left;
-  }
-  /*end for now*/
-  
-  
+}
+
+
+/*end for now*/
